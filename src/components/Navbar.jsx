@@ -41,7 +41,7 @@ export function Navbar() {
           {/* Indicador de estado del API (Nielsen #1) */}
           <div
             className="flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-mono bg-zinc-900 border border-zinc-800 text-zinc-400"
-            title={apiOnline ? "API Go conectada" : "Verificando API..."}
+            title={apiOnline ? "API conectada" : "Verificando API..."}
           >
             <span
               className={`h-1.5 w-1.5 rounded-full ${

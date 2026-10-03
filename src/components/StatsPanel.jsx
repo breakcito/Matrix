@@ -16,9 +16,6 @@ export function StatsPanel({ stats }) {
         <div>
           <h3 className="text-sm font-semibold text-zinc-100 flex items-center gap-2">
             <span>Operaciones y Estadísticas</span>
-            <span className="text-[10px] font-mono px-2 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
-              API Node.js
-            </span>
           </h3>
           <p className="text-xs text-zinc-400 mt-0.5">
             Cálculos agregados sobre las matrices rotada, Q y R

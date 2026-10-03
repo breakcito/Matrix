@@ -27,7 +27,7 @@ export function MatrixDisplay({ results }) {
       name: "Matriz Rotada 90° (Aᴿ)",
       symbol: "Aᴿ",
       matrix: results.rotated,
-      desc: "Rotación en sentido horario realizada por la API en Go",
+      desc: "Rotación en sentido horario de la matriz original",
       tag: "Rotación",
     },
     q: {
